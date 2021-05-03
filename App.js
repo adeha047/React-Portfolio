@@ -11,8 +11,8 @@ function App() {
       <div className="App">
         <Route path="/" component={Tabs} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/discover" component={Discover} />
-        <Route exact path="/search" component={Search} />
+        <Route exact path="/resume" component={resume} />
+        <Route exact path="/contact" component={contact} />
       </div>
     </Router>
   );
