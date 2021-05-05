@@ -1,6 +1,35 @@
 import React from 'react';
 
 function Portfolio() {
+    const mySites = [
+        {
+          title: "Burger Generator Application",
+          gitHubLink: "https://github.com/ptums/project-1",
+          libraries: ["Bootstrap", "React", "Auth0"],
+          img: "https://mobirise.com/assets52/images/poster.png",
+          width: 300,
+          height: 200,
+        },
+        {
+          title: "The Right Note",
+          gitHubLink: "https://github.com/ptums/project-2",
+          tools: ["HTML", "CSS", "JavaScript", "JQuery", "Foundation Framework", "Lyrics API", "MusicDB API"],
+          img:
+            "https://lh3.googleusercontent.com/QigP2YA5j4Um9Rq_-OF5SWip66Bg1Qa7U1jP_Ryr92g0ucmk4NVp-vH3E1hy65HLaTocCPjzc5MOC7KnYye5PlXI=w640-h400-e365-rj-sc0x00ffffff",
+          width: 300,
+          height: 200,
+        },
+        {
+          title: "Brewtime App",
+          gitHubLink: "https://github.com/ptums/project-3",
+          libraries: ["Tailwind.css", "Next.js", "Prismic.io"],
+          img:
+            "https://previews.123rf.com/images/droidworks/droidworks1501/droidworks150101595/36174079-stylish-website-template-for-personal-portfolio.jpg",
+          width: 300,
+          height: 200,
+        },
+      ];
+    
     return (
 
         
