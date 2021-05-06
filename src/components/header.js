@@ -1,30 +1,90 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Header() {
+class Header extends Component {
+  render() {
+    if (this.props.data) {
+      var name = this.props.data.name;
+      var occupation = this.props.data.occupation;
+      var description = this.props.data.description;
+      var jobDescription = this.props.data.jobDescription;
+      var employer = this.props.data.employer;
+      var city = this.props.data.address.city;
+      var networks = this.props.data.social.map(function (network) {
+        return (
+          <li key={network.name}>
+            <a href={network.url}>
+              <i className={network.className}></i>
+            </a>
+          </li>
+        );
+      });
+    }
+
     return (
-        <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top">Andrew DeHaven</a>
-            <button
-                className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i className="fas fa-bars"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">Projects</a></li>
-                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#about">Resume/Skills</a></li>
-                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+      <header id="home">
+        <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+          </a>
+          <a className="mobile-btn" href="#home" title="Hide navigation">
+            Hide navigation
+          </a>
+
+          <ul id="nav" className="nav">
+            <li className="current">
+              <a className="smoothscroll" href="#home">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
         </nav>
+
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h3>
+              I'm a <span>{city}</span> based <span>{occupation}</span>,
+              {description}
+              <span>{employer}</span> where I<span> {jobDescription}</span>.
+            </h3>
+            <hr />
+            <ul className="social">{networks}</ul>
+          </div>
+        </div>
+
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about">
+            <i className="icon-down-circle"></i>
+          </a>
+        </p>
+      </header>
     );
   }
-  
-  export default Header;
+}
+
+export default Header;
