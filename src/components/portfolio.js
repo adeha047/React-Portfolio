@@ -14,8 +14,7 @@ function Portfolio() {
           title: "The Right Note",
           gitHubLink: "https://github.com/adeha047/theRightNote",
           tools: ["HTML", "CSS", "JavaScript", "JQuery", "Foundation Framework", "Lyrics API", "MusicDB API"],
-          img:
-            "",
+          img: "https://i.pinimg.com/originals/98/a3/9f/98a39f53b03f89a26362a59b7f069990.jpg",
           width: 300,
           height: 200,
         },
