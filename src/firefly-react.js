@@ -1,10 +1,12 @@
-import React from "react";
+// import React from "react";
+// import Firefly from "./firefly-react"
 
 
-function Firefly() {
-    return (
-        <Firefly numberOfBirths={2} canvasWidth={window.innerWidth} canvasHeight={window.innerHeight} colors={colors} changeDirectionFrequency={10} randomMotion={true}></Firefly>
-    );
-  }
+// function FireflyComponent() {
+//     const colors =  ["Blue ", "Green", "Red", "Orange"];
+//     return (
+//         <Firefly numberOfBirths={2} canvasWidth={window.innerWidth} canvasHeight={window.innerHeight} colors={colors} changeDirectionFrequency={10} randomMotion={true}></Firefly>
+//     );
+//   }
   
-  export default Firefly;
+//   export default FireflyComponent;
