@@ -8,6 +8,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Firefly from "firefly-react"
 
 class App extends Component {
   constructor(props) {
