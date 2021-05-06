@@ -75,7 +75,10 @@ class Header extends Component {
             <hr />
             <ul className="social">{networks}</ul>
           </div>
-        </div>
+          </div>
+
+
+       
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">

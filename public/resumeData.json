@@ -1,0 +1,166 @@
+{
+    "main": {
+      "name": "Andrew DeHaven",
+      "occupation": "Full-Stack Web Developer",
+      "description": "Full-Stack Web Developer",
+      "image": "profile2.jpg",
+      "bio": "My name is Andrew and I am excited to begin this adventure as a junior developer.",
+      "contactmessage": "Get in touch with me to receive further details.",
+      "email": "heatherc.design@gmail.com",
+      "phone": "+01 480 789 3335",
+      "address": {
+        "city": "Golden",
+        "state": "CO"
+      },
+      "website": "https://edenkhaos.github.io/20-Portfolio/",
+      "resumedownload": "https://drive.google.com/file/d/1izRuDWfx2G5Du6AoXoCxGHTdLLxlh94y/view?usp=sharing",
+      "social": [
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/ravendantes19",
+          "className": "fa fa-twitter"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ravendantes//",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/edenkhaos1/",
+          "className": "fa fa-instagram"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/EdenKhaos",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "See more details on my download resume link.",
+      "education": [
+        {
+          "school": "University of Denver",
+          "degree": "Certificate in Full Stack Web Development",
+          "graduated": "December 2020",
+          "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+        },
+        {
+          "school": "Arizona State University",
+          "degree": "Masters in Architecture (March3+)",
+          "graduated": "May 2014"
+        },
+        {
+          "school": "The Art Institute of Portland",
+          "degree": "Bachelor of Science in Interior Design (BSID)",
+          "graduated": "March 2009",
+          "description":"GPA: 3.6"
+        }
+      ],
+      "work": [
+        {
+          "company": "EVstudio",
+          "title": "Architectural Project Designer/Assistant Project Manager",
+          "years": "July 2016 - April 2020",
+          "description": "Position to assist and support PM’s/PA’s from programming to CA."
+        },
+        {
+          "company": "Davis Partnership Architects",
+          "title": "Architectural Project Designer",
+          "years": "April 2015 - July 2016",
+          "description": "Position consisting of collaborative work with drawing documentation and construction document phases for local projects using Revit."
+        }
+      ],
+      "skills": [
+        {
+          "name": "ReactJs",
+          "level": "60%"
+        },
+        {
+          "name": "CSS",
+          "level": "90%"
+        },
+        {
+          "name": "Git",
+          "level": "65%"
+        },
+        {
+          "name": "MySQL DB",
+          "level": "55%"
+        },
+        {
+          "name": "HTML5",
+          "level": "85%"
+        },
+        {
+          "name": "MongoDB",
+          "level": "65%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Hike Finder App",
+          "category": "A simple application that displays local hiking trails.(html, css, js, jQuery, API)",
+          "image": "trails.jpg",
+          "url": " https://pprewitt.github.io/TrailsApp/"
+        },
+        {
+          "title": "Book Finder App",
+          "category": "An application that allows you to find your next book to read!(html, css, handlebars, mysql)",
+          "image": "book.jpg",
+          "url": "https://book-worms-book-finder.herokuapp.com/"
+        },
+        {
+          "title": "Let's Get Married!",
+          "category": "An app to allow users to start planning their small wedding or elopement.(React, MERN, Auth0)",
+          "image": "wedding.jpg",
+          "url": "https://lets-get-married.herokuapp.com/"
+        },
+        {
+          "title": "Google Book Tracker",
+          "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
+          "image": "google.jpg",
+          "url": "https://reactgooglebooks-search.herokuapp.com/"
+        },
+        {
+          "title": "Portfolio 2.0",
+          "category": "Personal portfolio not using React. (html, css, github pages, w3schools)",
+          "image": "portfolio.jpg",
+          "url": "https://edenkhaos.github.io/16-Portfolio2/"
+        },
+        {
+          "title": "Employee Directory",
+          "category": "Employee directory to view non-sensitive data and filter employees by name. (html, css, js, react, API)",
+          "image": "employee.jpg",
+          "url": "https://edenkhaos.github.io/19-Employee-Directory/"
+        },
+        {
+          "title": "Budget Tracker",
+          "category": "The user will be able to add expenses and deposits to their budget with or without a connection. (html, css, nodejs, expressjs)",
+          "image": "budget.jpg",
+          "url": "https://budget-tracker19.herokuapp.com/"
+        },
+        {
+          "title": "Workout Tracker",
+          "category": "A consumer will reach their fitness goals more quickly when they track their workout progress. (html, css, nodejs, expressjs)",
+          "image": "fitness.jpg",
+          "url": "https://workout-app17.herokuapp.com/?id=5f974d40cd7fc80004ffa956"
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "She is quick to pick up any new technologies whether for design of buildings and the occupied space or for developing in javascript or C# - it is awesome to see the results come to fruition.",
+          "user": "Alice Santman"
+        },
+        {
+          "text": "I thoroughly enjoyed my time working with Heather and would consider her as a truly valuable asset to absolutely any team.",
+          "user": "Sam Fan"
+        }
+      ]
+    }
+  }
