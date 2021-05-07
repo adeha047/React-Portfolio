@@ -101,7 +101,7 @@
           "title": "Brewtime App",
           "category": "This full stack application explores making API calls using the Google places/maps API, and geolocation API once a user logs into the website. The user must though allow for location services and then they are provided the closest coffee shops in their location.",
           "image": "coffee.jpg",
-          "url": ""
+          "url": "https://apricot-shortcake-18871.herokuapp.com/"
         },
        
         {
@@ -112,9 +112,9 @@
         },
         {
           "title": "Workout Tracker",
-          "category": "A consumer will reach their fitness goals more quickly when they track their workout progress. (html, css, nodejs, expressjs)",
+          "category": " In this app, the user will have the opportunity create a unique burger, eat the burger and then delete the burger from the webpage. The tech used in this app: MySQL, Node.js, Express, and handlebars.",
           "image": "fitness.jpg",
-          "url": "https://workout-app17.herokuapp.com/?id=5f974d40cd7fc80004ffa956"
+          "url": "https://desolate-waters-85761.herokuapp.com/"
         }
       ]
     }
