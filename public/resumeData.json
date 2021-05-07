@@ -3,7 +3,7 @@
       "name": "Andrew DeHaven",
       "occupation": "Full-Stack Web Developer",
       "description": "Full-Stack Web Developer",
-      "image": "profile2.jpg",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D03AQG0DDx17cccAQ/profile-displayphoto-shrink_800_800/0/1566519968818?e=1618444800&v=beta&t=xPXUOOD_R9b9gxGtDWF7bDg9RC74u8nbkioZPWJAUz4",
       "bio": "My name is Andrew and I am excited to begin this adventure as a junior developer.",
       "contactmessage": "Get in touch with me to receive further details.",
       "email": "dehaven7777@gmail.com",
@@ -12,8 +12,7 @@
         "city": "Jersey City",
         "state": "New Jersey"
       },
-      "website": "https://edenkhaos.github.io/20-Portfolio/",
-      "resumedownload": "https://drive.google.com/file/d/1izRuDWfx2G5Du6AoXoCxGHTdLLxlh94y/view?usp=sharing",
+      "resumedownload": "",
       "social": [
         {
           "name": "linkedin",
