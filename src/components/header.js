@@ -7,8 +7,6 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      var jobDescription = this.props.data.jobDescription;
-      var employer = this.props.data.employer;
       var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
@@ -68,7 +66,6 @@ class Header extends Component {
             <h3>
               I'm a <span>{city}</span> based <span>{occupation}</span>,
               {description}
-              <span>{employer}</span> where I<span> {jobDescription}</span>.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

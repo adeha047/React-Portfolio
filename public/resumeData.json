@@ -2,8 +2,8 @@
     "main": {
       "name": "Andrew DeHaven",
       "occupation": "Full-Stack Web Developer",
-      "description": "Full-Stack Web Developer",
-      "image": "https://media-exp1.licdn.com/dms/image/C4D03AQG0DDx17cccAQ/profile-displayphoto-shrink_800_800/0/1566519968818?e=1618444800&v=beta&t=xPXUOOD_R9b9gxGtDWF7bDg9RC74u8nbkioZPWJAUz4",
+      "description": "I am actively searching for a full-time junior developer role to continue to hone my craft",
+      "image": "Drew.jpg",
       "bio": "My name is Andrew and I am excited to begin this adventure as a junior developer.",
       "contactmessage": "Get in touch with me to receive further details.",
       "email": "dehaven7777@gmail.com",
@@ -102,13 +102,6 @@
           "category": "This full stack application explores making API calls using the Google places/maps API, and geolocation API once a user logs into the website. The user must though allow for location services and then they are provided the closest coffee shops in their location.",
           "image": "coffee.jpg",
           "url": "https://apricot-shortcake-18871.herokuapp.com/"
-        },
-       
-        {
-          "title": "Google Book Tracker",
-          "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
-          "image": "google.jpg",
-          "url": "https://reactgooglebooks-search.herokuapp.com/"
         },
         {
           "title": "Burger App",
