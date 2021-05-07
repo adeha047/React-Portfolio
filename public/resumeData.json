@@ -16,12 +16,12 @@
       "social": [
         {
           "name": "linkedin",
-          "url": "https://www.linkedin.com/in/ravendantes//",
+          "url": "https://www.linkedin.com/jobs/search/?currentJobId=2517797987&pivotType=jymbii",
           "className": "fa fa-linkedin"
         },
         {
           "name": "github",
-          "url": "https://github.com/EdenKhaos",
+          "url": "https://github.com/adeha047",
           "className": "fa fa-github"
         }
       ]
@@ -92,16 +92,16 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Hike Finder App",
-          "category": "A simple application that displays local hiking trails.(html, css, js, jQuery, API)",
-          "image": "trails.jpg",
-          "url": " https://pprewitt.github.io/TrailsApp/"
+          "title": "The Right Note",
+          "category": "Interactive site designed for users to discover more about their favorite artists and the lyrics from that artist. ",
+          "image": "https://raw.githubusercontent.com/adeha047/theRightNote/main/music-logo.png",
+          "url": " https://adeha047.github.io/theRightNote/"
         },
         {
-          "title": "Book Finder App",
-          "category": "An application that allows you to find your next book to read!(html, css, handlebars, mysql)",
-          "image": "book.jpg",
-          "url": "https://book-worms-book-finder.herokuapp.com/"
+          "title": "Brewtime App",
+          "category": "This full stack application explores making API calls using the Google places/maps API, and geolocation API once a user logs into the website. The user must though allow for location services and then they are provided the closest coffee shops in their location.",
+          "image": "coffee.jpg",
+          "url": ""
         },
        
         {
@@ -109,24 +109,6 @@
           "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
           "image": "google.jpg",
           "url": "https://reactgooglebooks-search.herokuapp.com/"
-        },
-        {
-          "title": "Portfolio 2.0",
-          "category": "Personal portfolio not using React. (html, css, github pages, w3schools)",
-          "image": "portfolio.jpg",
-          "url": "https://edenkhaos.github.io/16-Portfolio2/"
-        },
-        {
-          "title": "Employee Directory",
-          "category": "Employee directory to view non-sensitive data and filter employees by name. (html, css, js, react, API)",
-          "image": "employee.jpg",
-          "url": "https://edenkhaos.github.io/19-Employee-Directory/"
-        },
-        {
-          "title": "Budget Tracker",
-          "category": "The user will be able to add expenses and deposits to their budget with or without a connection. (html, css, nodejs, expressjs)",
-          "image": "budget.jpg",
-          "url": "https://budget-tracker19.herokuapp.com/"
         },
         {
           "title": "Workout Tracker",
