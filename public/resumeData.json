@@ -111,9 +111,9 @@
           "url": "https://reactgooglebooks-search.herokuapp.com/"
         },
         {
-          "title": "Workout Tracker",
-          "category": " In this app, the user will have the opportunity create a unique burger, eat the burger and then delete the burger from the webpage. The tech used in this app: MySQL, Node.js, Express, and handlebars.",
-          "image": "fitness.jpg",
+          "title": "Burger App",
+          "category": "In this app, the user will have the opportunity create a unique burger, eat the burger and then delete the burger from the webpage. The tech used in this app: MySQL, Node.js, Express, and handlebars.",
+          "image": "https://icon-library.com/images/hamburger-icon-png/hamburger-icon-png-7.jpg",
           "url": "https://desolate-waters-85761.herokuapp.com/"
         }
       ]
