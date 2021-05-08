@@ -62,10 +62,10 @@
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
+   /* #testimonials .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
-   }
+   } */
    #testimonials blockquote p {
       font-size: 22px;
       line-height: 46px;      
@@ -80,11 +80,11 @@
 
    /* Contact Section
    ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
-   #contact .header-col h1:before {
+   /* #contact .section-head { margin-bottom: 30px; } */
+   /* #contact .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
-   }
+   } */
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
 

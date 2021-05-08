@@ -65,10 +65,9 @@ class Header extends Component {
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>
               I'm a <span>{city}</span> based <span>{occupation}</span>,
-              {description}
+               {description}
             </h3>
             <hr />
-            <ul className="social">{networks}</ul>
           </div>
           </div>
           <Firefly numberOfBirths={2} canvasWidth={window.innerWidth} canvasHeight={window.innerHeight} colors={colors} changeDirectionFrequency={10} randomMotion={true}></Firefly>

@@ -2,9 +2,9 @@
     "main": {
       "name": "Andrew DeHaven",
       "occupation": "Full-Stack Web Developer",
-      "description": "I am actively searching for a full-time junior developer role to continue to hone my craft",
+      "description": " who's excited to continue to learn and build out new apps.",
       "image": "Drew.jpg",
-      "bio": "My name is Andrew and I am excited to begin this adventure as a junior developer.",
+      "bio": "Full Stack Developer actively searching for my next role.",
       "contactmessage": "Get in touch with me to receive further details.",
       "email": "dehaven7777@gmail.com",
       "phone": "+01 610 984 7862",
@@ -12,7 +12,7 @@
         "city": "Jersey City",
         "state": "New Jersey"
       },
-      "resumedownload": "",
+      "resumedownload": "https://docs.google.com/document/d/1MajqYMBqsDZE15leIXEn_B4gkqh2Xba-DHyoVBVZOJ8/",
       "social": [
         {
           "name": "linkedin",
@@ -33,7 +33,7 @@
           "school": "Rutgers University",
           "degree": "Certificate in Full Stack Web Development",
           "graduated": "May 2021",
-          "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+          "description": "A 24-week intensive program focused on gaining technical programming skills in software programming/development"
         },
         {
           "school": "Northwestern University",
@@ -94,7 +94,7 @@
         {
           "title": "The Right Note",
           "category": "Interactive site designed for users to discover more about their favorite artists and the lyrics from that artist. ",
-          "image": "https://raw.githubusercontent.com/adeha047/theRightNote/main/music-logo.png",
+          "image": "piano.jpg",
           "url": " https://adeha047.github.io/theRightNote/"
         },
         {
@@ -106,8 +106,14 @@
         {
           "title": "Burger App",
           "category": "In this app, the user will have the opportunity create a unique burger, eat the burger and then delete the burger from the webpage. The tech used in this app: MySQL, Node.js, Express, and handlebars.",
-          "image": "https://icon-library.com/images/hamburger-icon-png/hamburger-icon-png-7.jpg",
+          "image": "burgers.jpg",
           "url": "https://desolate-waters-85761.herokuapp.com/"
+        },
+        {
+          "title": "Exercise Tracker App",
+          "category": "In this app, the user can add their exercises on a daily basis. The tech used in this app: MongoDB, Node.js, Express.",
+          "image": "exercise.jpg",
+          "url": "https://murmuring-castle-07897.herokuapp.com/"
         }
       ]
     }

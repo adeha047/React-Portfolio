@@ -155,7 +155,7 @@ e. Others
         Vertical rhythm with leading derived from 6
  --------------------------------------------------------------------- */
  
- h1, h2, h3, h4, h5, h6 {
+ h1, h3, h4, h5, h6 {
     color: #313131;
      font-family: 'opensans-bold', sans-serif;
     font-weight: normal;
@@ -188,7 +188,7 @@ e. Others
     padding-left: 40px;
     position: relative;
  }
- blockquote:before {
+ /* blockquote:before {
     content: "\201C";
     opacity: 0.45;
     font-size: 80px;
@@ -199,7 +199,7 @@ e. Others
     position: absolute;
     top:  30px;
      left: 0;
- }
+ } */
  blockquote p {
     font-family: 'librebaskerville-italic', serif;
     padding: 0;
@@ -611,7 +611,7 @@ e. Others
  
  .column, .columns {
     position: relative;
-    padding: 0 20px;
+    padding: 0 45px;
     min-height: 1px;
     float: left;
  }

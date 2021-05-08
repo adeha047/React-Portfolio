@@ -26,9 +26,9 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <h4 className="lead">{message}</h4>
                   <br/>
-                  <p className="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</p>
+                  <h4 className="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</h4>
 
             </div>
 
@@ -80,13 +80,13 @@ class Contact extends Component {
                <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
-					   <p className="address">
+					   <h4 className="address">
 						   {name}<br />
 						   {city} <br />
 						   {state}, {zip}<br />
 						   <span>{phone}</span><br />
                <span><a href="mailto:dehaven7777@gmail.com">{email}</a></span>
-					   </p>
+					   </h4>
 				   </div>
             </aside>
       </div>
