@@ -19,11 +19,13 @@
 
 ## Demo
 
-![demo](/assets/)
+![demo](/assets/demo.png)
 
 ## Links 
 
 https://adeha047.github.io/React-Portfolio/
+
+https://github.com/adeha047/React-Portfolio
 
 
 
