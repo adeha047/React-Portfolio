@@ -248,9 +248,10 @@ body {
   #about .download {
     width: 58.33333%;
     padding-top: 6px;
+    padding-left: 10px;
   }
   #about .main-col {
-    padding-right: 5%;
+    padding-right: 0;
   }
   #about .download .button {
     margin-top: 6px;
