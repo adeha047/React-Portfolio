@@ -23,14 +23,16 @@
 
 ## Links 
 
-https://github.com/adeha047/React-Employee-Directory
+https://adeha047.github.io/React-Portfolio/
+
+
 
 
 
 
 
 ## Usage
-
+A porfolio to allow everyone to have a look at my accomplishments in web development.
 
 ## Tech Used
 
