@@ -1,0 +1,120 @@
+{
+    "main": {
+      "name": "Andrew DeHaven",
+      "occupation": "Full-Stack Web Developer",
+      "description": " who's excited to continue to learn and build out new apps.",
+      "image": "Drew.jpg",
+      "bio": "Full Stack Developer actively searching for my next role.",
+      "contactmessage": "Get in touch with me to receive further details.",
+      "email": "dehaven7777@gmail.com",
+      "phone": "+01 610 984 7862",
+      "address": {
+        "city": "Jersey City",
+        "state": "New Jersey"
+      },
+      "resumedownload": "https://docs.google.com/document/d/1MajqYMBqsDZE15leIXEn_B4gkqh2Xba-DHyoVBVZOJ8/",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/jobs/search/?currentJobId=2517797987&pivotType=jymbii",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/adeha047",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "See more details on my download resume link.",
+      "education": [
+        {
+          "school": "Rutgers University",
+          "degree": "Certificate in Full Stack Web Development",
+          "graduated": "May 2021",
+          "description": "A 24-week intensive program focused on gaining technical programming skills in software programming/development"
+        },
+        {
+          "school": "Northwestern University",
+          "degree": "Masters in Speech Pathology"
+        },
+        {
+          "school": "St. John's University",
+          "degree": "Communication Sciences and Disorders",
+          "graduated": "May 2016",
+          "description":"GPA: 3.95"
+        }
+      ],
+      "work": [
+        {
+          "company": "eZCom Software",
+          "title": " Implementation Specialist/Project Manager",
+          "years": "October 2019 - ",
+          "description": "Built strong, lasting relationships and strategic partnerships through exceptional client service; served as primary point of contact for client communications"
+        },
+        {
+          "company": "ICS Software",
+          "title": "Software Support Specialist",
+          "years": "January 2019 - September 2019",
+          "description": "Assisted customers on various software related issues including several versions of Windows Operating Systems."
+        }, 
+        {
+            "company": "Computer Aid",
+            "title": "IT Infrastructure Administrator/Software Support Tier 1",
+            "years": "January 2019 - September 2019",
+            "description": "Provided German to English translation on all IT related-issues for employees based in Germany."
+          }
+
+      ],
+      "skills": [
+        {
+          "name": "ReactJs"
+          
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "MySQL DB"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "MongoDB"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "The Right Note",
+          "category": "Interactive site designed for users to discover more about their favorite artists and the lyrics from that artist. ",
+          "image": "piano.jpg",
+          "url": " https://adeha047.github.io/theRightNote/"
+        },
+        {
+          "title": "Brewtime App",
+          "category": "This full stack application explores making API calls using the Google places/maps API, and geolocation API once a user logs into the website. The user must though allow for location services and then they are provided the closest coffee shops in their location.",
+          "image": "coffee.jpg",
+          "url": "https://apricot-shortcake-18871.herokuapp.com/"
+        },
+        {
+          "title": "Burger App",
+          "category": "In this app, the user will have the opportunity create a unique burger, eat the burger and then delete the burger from the webpage. The tech used in this app: MySQL, Node.js, Express, and handlebars.",
+          "image": "burgers.jpg",
+          "url": "https://desolate-waters-85761.herokuapp.com/"
+        },
+        {
+          "title": "Exercise Tracker App",
+          "category": "In this app, the user can add their exercises on a daily basis. The tech used in this app: MongoDB, Node.js, Express.",
+          "image": "exercise.jpg",
+          "url": "https://murmuring-castle-07897.herokuapp.com/"
+        }
+      ]
+    }
+  }
