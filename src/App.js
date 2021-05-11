@@ -7,16 +7,14 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
-// import FireflyComponent from "./firefly-react";
+import Portfolio from "./components/portfolio";
+
 
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      canvasHeight: window.innerHeight, 
-      canvasWidth: window.innerWidth,
       resumeData: {},
     };
 
@@ -46,16 +44,6 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
-
-
-// window.addEventListener(
-//    "resize",
-//    (e) => {
-//     this.setState({ canvasHeight: window.innerHeight});
-//    setCanvasWidth(window.innerWidth);
-//    },
-//    false
-// );
 
   render() {
   

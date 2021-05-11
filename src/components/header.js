@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Firefly from "firefly-react"; 
+
 
 class Header extends Component {
   render() {
@@ -18,7 +18,7 @@ class Header extends Component {
         );
       });
     }
-    const colors =  ["Blue ", "Green", "Red", "Orange"];
+    
 
     return (
       <header id="home">
@@ -70,7 +70,6 @@ class Header extends Component {
             <hr />
           </div>
           </div>
-          <Firefly numberOfBirths={2} canvasWidth={window.innerWidth} canvasHeight={window.innerHeight} colors={colors} changeDirectionFrequency={10} randomMotion={true}></Firefly>
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>
