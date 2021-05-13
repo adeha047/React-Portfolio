@@ -5030,11 +5030,6 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firefly-react@^22.4.2021:
-  version "22.4.2021"
-  resolved "https://registry.yarnpkg.com/firefly-react/-/firefly-react-22.4.2021.tgz#2448f3507dc1a24a4863203abeb11d5ae1c58019"
-  integrity sha512-CpVhk1BT/LNkz6JyII5snV6oyHtFe72vvWjTDPBdZp7gkD6jFh/shRnhSpZztyyRa2S/zRUCt97p1ATrZaIoew==
-
 flat-cache@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
